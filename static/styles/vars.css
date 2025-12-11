@@ -1,0 +1,16 @@
+:root {
+    --font-text: 'Onest', sans-serif;
+    --font-title: 'Riverhack', sans-serif;
+    --font: normal 16px var(--font-text);
+}
+
+:root {
+    --transition-linear: all 0.1s ease-in-out;
+}
+
+:root {
+    --color-white: #ffffff;
+    --color-accent-1: #3491F9;
+    --color-accent-2: #0076F6;
+    --color-tiny: rgba(0, 118, 246, 0.6);
+}
