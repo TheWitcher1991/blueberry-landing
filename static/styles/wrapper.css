@@ -417,3 +417,8 @@ p {
     font-size: 18px;
     line-height: 140%;
 }
+
+.group-img {
+    height: 607px;
+    object-fit: contain;
+}
