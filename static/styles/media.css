@@ -1,0 +1,847 @@
+/* ============================================
+   АДАПТИВНЫЕ СТИЛИ ДЛЯ РАЗНЫХ УСТРОЙСТВ
+   ============================================ */
+
+/* ============================================
+   БАЗОВЫЕ СТИЛИ ДЛЯ МОБИЛЬНОГО МЕНЮ
+   ============================================ */
+.mobile-action {
+  display: none;
+  border: none;
+  background: transparent;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+/* ============================================
+   БОЛЬШИЕ ЭКРАНЫ (от 1440px)
+   ============================================ */
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 64px;
+  }
+
+  .section-text {
+    font-size: 26px;
+  }
+
+  .header-title-text {
+    font-size: 32px;
+    max-width: 800px;
+  }
+}
+
+/* ============================================
+   ОЧЕНЬ БОЛЬШИЕ ЭКРАНЫ (от 1920px)
+   ============================================ */
+@media screen and (min-width: 1920px) {
+  .wrapper {
+    max-width: 1600px;
+  }
+
+  .section-title {
+    font-size: 72px;
+  }
+
+  .section-text {
+    font-size: 28px;
+  }
+}
+
+/* ============================================
+   ПЛАНШЕТЫ (до 1024px)
+   ============================================ */
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .section-padding {
+    padding: 24px;
+    gap: 24px;
+  }
+
+  .section-title {
+    font-size: 48px;
+  }
+
+  .section-text {
+    font-size: 20px;
+  }
+
+  .section-header {
+    height: 600px;
+  }
+
+  .header-title-text {
+    font-size: 24px;
+    max-width: 600px;
+  }
+
+  .section-about-cards {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .section-about-card-mission {
+    width: 100%;
+    max-width: 371px;
+  }
+
+  .section-about-card-image {
+    width: 100%;
+    max-width: 270px;
+  }
+
+  .section-what-cards {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .section-what-card {
+    height: auto;
+    min-height: 211px;
+  }
+
+  .product-imgs {
+    width: 100%;
+    max-width: 490px;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 490px;
+  }
+
+  .product-card-img-1 {
+    left: -250px;
+  }
+
+  .product-card-img-2 {
+    right: -250px;
+  }
+
+  .section-card-clients {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .section-card-clients img {
+    width: 100%;
+    max-width: 386px;
+    height: auto;
+  }
+
+  .section-gradient {
+    height: auto;
+    min-height: 500px;
+    padding: 40px;
+  }
+
+  .footer-text {
+    width: 100%;
+    max-width: 659px;
+  }
+}
+
+/* ============================================
+   ПЛАНШЕТЫ ВЕРТИКАЛЬНО (до 768px)
+   ============================================ */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .section-padding {
+    padding: 20px;
+    border-radius: 24px;
+    gap: 20px;
+  }
+
+  .section-title {
+    font-size: 40px;
+    line-height: 130%;
+  }
+
+  .mobile-section {
+    display: block;
+    }
+
+  .section-text {
+    font-size: 18px;
+  }
+
+  .section-header {
+    height: 500px;
+    padding: 20px;
+  }
+
+  .header-title-text {
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    position: relative;
+  }
+
+  .nav-logo {
+    font-size: 16px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .glass-action {
+    display: none;
+  }
+
+
+  .section-about-cards {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .section-about-text {
+    width: 100%;
+  }
+
+  .section-about-card-mission {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .section-about-card-image {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+  }
+
+  .section-about-text-title {
+    font-size: 18px;
+  }
+
+  .section-about-text-caption {
+    font-size: 13px;
+  }
+
+  .section-about-card {
+    height: auto;
+    min-height: 150px;
+  }
+
+  .section-about-card-title {
+    font-size: 16px;
+  }
+
+  .section-about-card-text {
+    font-size: 14px;
+  }
+
+  .section-what-cards {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .section-what-card {
+    width: 100%;
+    height: auto;
+    min-height: 180px;
+  }
+
+  .section-what-card-title {
+    font-size: 18px;
+  }
+
+  .section-what-card-text {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .section-what-card img {
+    width: 140px;
+    height: 140px;
+    bottom: -25px;
+    right: -30px;
+  }
+
+  .product-imgs {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .product-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .product-card-img {
+    display: none;
+  }
+
+  .g-1-img,
+  .g-2-img {
+    display: none;
+  }
+
+  .text-img {
+    width: 190px;
+    height: auto;
+  }
+
+  .lag-img {
+    width: 60px;
+    height: auto;
+    top: 280px;
+  }
+
+  .product-text-title {
+    font-size: 18px;
+  }
+
+  .product-text-caption {
+    font-size: 16px;
+  }
+
+  .section-card-clients {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .section-card-clients img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .section-gradient {
+    height: auto;
+    min-height: 400px;
+    padding: 30px 20px;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .section-gradient-link {
+    width: auto;
+    min-width: 170px;
+  }
+
+  .section-footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-left {
+    gap: 24px;
+  }
+
+  .footer-logo {
+    font-size: 24px;
+  }
+
+  .footer-menu {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .footer-menu a {
+    font-size: 18px;
+  }
+
+  .footer-text {
+    width: 100%;
+    font-size: 14px;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-text img {
+    width: 100px;
+    height: auto;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+
+  .footer-dl-title {
+    font-size: 16px;
+  }
+
+  .footer-dl-text {
+    font-size: 16px;
+  }
+}
+
+/* ============================================
+   МОБИЛЬНЫЕ УСТРОЙСТВА (до 480px)
+   ============================================ */
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .section-padding {
+    padding: 16px;
+    border-radius: 20px;
+    gap: 16px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    line-height: 120%;
+  }
+
+  .section-text {
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .section-header {
+    height: 400px;
+    padding: 16px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header-title-text {
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .nav {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+  }
+
+  .nav-logo {
+    font-size: 14px;
+    flex: 1;
+  }
+
+  .nav-logo img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .menu, .contact-action {
+    display: none;
+  }
+
+  .glass-action {
+    display: none;
+  }
+
+  .mobile-action {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  .mobile-menu {
+    top: calc(100% + 8px);
+    padding: 16px;
+    gap: 8px;
+  }
+
+  .mobile-menu a {
+    font-size: 15px;
+    padding: 10px 14px;
+  }
+
+  .section-about-cards {
+    gap: 12px;
+  }
+
+  .section-about-text-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .section-about-text-caption {
+    font-size: 12px;
+  }
+
+  .section-about-card {
+    padding: 16px;
+    min-height: 140px;
+    height: auto;
+  }
+
+  .section-about-card-image {
+    height: 180px;
+    padding: 0;
+  }
+
+  .section-about-card-title {
+    font-size: 15px;
+  }
+
+  .section-about-card-text {
+    font-size: 13px;
+  }
+
+  .section-about-card-mission img {
+    width: 50px;
+    height: 48px;
+    right: -15px;
+    top: -15px;
+  }
+
+  .mobile-action {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .mobile-menu {
+    padding: 12px;
+    gap: 6px;
+    border-radius: 12px;
+  }
+
+  .mobile-menu a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .section-what-cards {
+    gap: 12px;
+  }
+
+  .section-what-card {
+    padding: 16px;
+    min-height: 160px;
+  }
+
+  .section-what-card-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .section-what-card-text {
+    font-size: 13px;
+  }
+
+  .section-what-card img {
+    width: 100px;
+    height: 100px;
+    bottom: -15px;
+    right: -20px;
+  }
+
+  .product-card {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .product-img {
+    height: 250px;
+  }
+
+  .text-img {
+    width: 190px;
+    top: 12px;
+    left: 12px;
+  }
+
+  .lag-img {
+    width: 50px;
+    top: 220px;
+    right: 8px;
+  }
+
+  .product-text-title {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  .product-text-caption {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .section-card-clients {
+    gap: 12px;
+  }
+
+  .section-card-clients img {
+    max-height: fit-content;
+    border-radius: 16px;
+  }
+
+  .section-gradient {
+    min-height: fit-content;
+    padding: 24px 16px;
+    gap: 24px;
+  }
+
+  .section-gradient-link {
+    width: 100%;
+    max-width: 200px;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .footer-image {
+    display: none;
+  }
+
+  .footer-left {
+    gap: 20px;
+  }
+
+  .footer-logo {
+    font-size: 20px;
+  }
+
+  .footer-logo img {
+    width: 48px;
+    height: 40px;
+  }
+
+  .footer-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .footer-menu span {
+    display: none;
+  }
+
+  .footer-menu a {
+    font-size: 16px;
+    padding: 4px 0;
+  }
+
+  .footer-text {
+    font-size: 12px;
+    line-height: 160%;
+  }
+
+  .footer-text img {
+    width: 80px;
+    margin-top: 8px;
+  }
+
+  .footer-dl-title {
+    font-size: 14px;
+  }
+
+  .footer-dl-text {
+    font-size: 14px;
+  }
+}
+
+/* ============================================
+   ОЧЕНЬ МАЛЕНЬКИЕ УСТРОЙСТВА (до 360px)
+   ============================================ */
+@media screen and (max-width: 360px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .section-text {
+    font-size: 14px;
+  }
+
+  .header-title-text {
+    font-size: 16px;
+  }
+
+  .section-header {
+    height: 350px;
+  }
+
+  .nav-logo {
+    font-size: 12px;
+  }
+
+  .menu a,
+  .glass-action {
+    font-size: 13px;
+  }
+
+  .section-about-text-title {
+    font-size: 15px;
+  }
+
+  .section-about-card {
+    padding: 12px;
+  }
+
+  .section-about-card-title {
+    font-size: 14px;
+  }
+
+  .section-about-card-text {
+    font-size: 12px;
+  }
+
+  .section-what-card-title {
+    font-size: 15px;
+  }
+
+  .section-what-card-text {
+    font-size: 12px;
+  }
+
+  .product-text-title {
+    font-size: 15px;
+  }
+
+  .product-text-caption {
+    font-size: 13px;
+  }
+
+  .footer-logo {
+    font-size: 18px;
+  }
+
+  .footer-menu a {
+    font-size: 14px;
+  }
+
+  .footer-text {
+    font-size: 11px;
+  }
+}
+
+/* ============================================
+   ЛАНДШАФТНАЯ ОРИЕНТАЦИЯ МОБИЛЬНЫХ
+   ============================================ */
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .section-header {
+    height: 300px;
+  }
+
+  .section-gradient {
+    min-height: 300px;
+    padding: 20px;
+  }
+}
+
+/* ============================================
+   ВЫСОКИЕ ЭКРАНЫ (высота меньше 600px)
+   ============================================ */
+@media screen and (max-height: 600px) and (orientation: landscape) {
+  .section-header {
+    height: auto;
+    min-height: 300px;
+  }
+
+  .section-gradient {
+    min-height: 300px;
+  }
+}
+
+/* ============================================
+   УЛУЧШЕНИЕ ЧИТАЕМОСТИ НА МАЛЕНЬКИХ ЭКРАНАХ
+   ============================================ */
+@media screen and (max-width: 768px) {
+  /* Улучшаем контрастность текста */
+  .section-accent,
+  .section-gradient {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Оптимизация изображений */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Улучшение touch-целей */
+  a,
+  button,
+  .glass-action,
+  .section-gradient-link,
+  .mobile-action {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .glass-action {
+    display: none;
+  }
+
+  /* Плавная прокрутка */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Оптимизация анимаций */
+  .wow {
+    animation-duration: 0.6s;
+  }
+}
+
+/* ============================================
+   ОПТИМИЗАЦИЯ ДЛЯ МОБИЛЬНЫХ УСТРОЙСТВ
+   ============================================ */
+@media screen and (max-width: 480px) {
+  /* Отключаем hover эффекты на touch устройствах */
+  @media (hover: none) {
+    .nav a:hover,
+    .footer-menu a:hover,
+    .section-gradient-link:hover {
+      text-decoration: none;
+      opacity: 1;
+    }
+  }
+
+  /* Улучшаем производительность */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Оптимизация для медленных соединений */
+  /* Примечание: loading="lazy" должен быть добавлен в HTML атрибуты img */
+}
+
+/* ============================================
+   ПЕЧАТЬ
+   ============================================ */
+@media print {
+  .nav,
+  .footer-image,
+  .product-card-img,
+  .g-1-img,
+  .g-2-img {
+    display: none;
+  }
+
+  .section-padding {
+    page-break-inside: avoid;
+  }
+}
+
